@@ -412,7 +412,7 @@ begin
   sorry,
 end
 
--- Supremum of the image of a fuzzy set, Still undefined
+-- Supremum of the image of a fuzzy set
 def fuzzy_sup (A : fuzzy_set u) := (Sup (range (mem A)) : ℝ )
 
 
