@@ -1,0 +1,8 @@
+[package]
+name = "fuzzy_sets"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.45.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "b21c9aa192105d85285404c91331505f1a19248d"}
