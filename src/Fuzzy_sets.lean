@@ -406,8 +406,8 @@ def hyperplane (v : E) (c : ℝ) : set E := { x : E | (x ⬝ᵥ v) = c}
 def pos_hyperplane (v : E) (c : ℝ) : set E := { x : E | (x ⬝ᵥ v) ≥ c}
 def neg_hyperplane (v : E) (c : ℝ) : set E := { x : E | (x ⬝ᵥ v) ≤ c}
 
-theorem hyperplane_sep_classic (A B : set E) (h1: convex ℝ (A : set E) ∧ convex ℝ (B : set E) )
-(h2: metric.bounded (A : set E) ∧ metric.bounded (B : set E)) (h3: disjoint A B) : ∃ (v : E) (c :ℝ ), ∀ a ∈ A, ∀ b∈ B,  (a ⬝ᵥ v) ≥ c ∧ (b ⬝ᵥ v) ≤  c:=
+theorem hyperplane_sep_classic (A B : set E) (h1: convex ℝ (A : set E) ∧ convex ℝ (B : set E) ) 
+(h2: disjoint A B) : ∃ (v : E) (c :ℝ ), ∀ a ∈ A, ∀ b∈ B,  (a ⬝ᵥ v) ≥ c ∧ (b ⬝ᵥ v) ≤  c:=
 begin
   sorry,
 end
